@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us </title>
+</head>
+<body>
+
+    <h1> Contact Us </h1>
+	</br>
+	<img src="https://i.ibb.co/SVSsX52/contacttt.jpg" alt="contactus"/>
+	
+	<form action= "contactus.php "method="POST" >
+	
+	<p>
+		<label for="first_name">First Name</label><br />
+		 <input type="text" name="first_name" placeholder="Enter Your First Name" required />
+	</p>
+
+	<p>
+		<label for="last_name">Last Name</label><br />
+		 <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+	</p>
+
+	<p>
+		<label for="email">Email</label><br />
+		<input type="email" name="email" placeholder="Enter Your Email" required />
+	</p>
+	
+	<p>
+		<label for="phone">Phone Number</label><br />
+		<input type="phone" name="phone" placeholder="Enter Your Phone Number" required />
+	</p>
+	
+	<p>
+	  <label for="gender">Gender</label><br />
+	  <input type="radio" value="Female" name="gender" /> Female 
+					<input type="radio" value="Male" name="gender" /> Male
+	</p>
+
+        <p>
+            <label for="medium">How did you hear about us?</label><br />
+
+             <select name="medium">
+                <option>Select medium</option>
+                <option>Email</option>
+                <option>Twitter</option>
+                <option>Facebook</option>
+                <option>TV</option>
+              </select>
+        </p>
+
+	<p>
+		<label for="email">Your Message</label><br />
+		<textarea name="message" ></textarea>
+	</p>
+	
+	<p>
+	
+    <input type="checkbox" name="terms"  required /> I agree to terms and conditions.
+              
+  </p>
+   
+    
+     <button type="submit">Send Message</button>
+	 
+	
+	
+</form>
+</body>
+</html>
